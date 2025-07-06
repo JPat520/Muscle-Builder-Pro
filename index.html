@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muscle Bilder Pro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .body-diagram {
+      max-width: 500px;
+      margin: 2rem auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #111;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muscle Bilder Pro</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="workouts.html">Workouts</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Select a Muscle to Train</h2>
+    <div class="body-diagram">
+      <img src="male-body-diagram.png" usemap="#muscles" alt="Body Diagram">
+      <map name="muscles">
+        <area shape="rect" coords="120,100,180,160" href="chest.html" alt="Chest">
+        <area shape="rect" coords="100,160,130,220" href="biceps.html" alt="Left Bicep">
+        <area shape="rect" coords="170,160,200,220" href="biceps.html" alt="Right Bicep">
+        <area shape="rect" coords="130,220,170,300" href="abs.html" alt="Abs">
+        <area shape="rect" coords="120,300,180,400" href="legs.html" alt="Legs">
+        <!-- Add more areas as needed -->
+      </map>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Muscle Bilder Pro. All rights reserved.
+  </footer>
+</body>
+</html>
